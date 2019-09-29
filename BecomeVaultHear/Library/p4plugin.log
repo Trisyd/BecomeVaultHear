@@ -1,0 +1,690 @@
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+r1:end of response
+
+--------------------------
+UNITY > c:pluginConfig end
+Got config end = ''
+c32:disableCommand add
+c32:disableCommand changeDescription
+c32:disableCommand changeMove
+c32:disableCommand changes
+c32:disableCommand changeStatus
+c32:disableCommand checkout
+c32:disableCommand deleteChanges
+c32:disableCommand delete
+c32:disableCommand download
+c32:disableCommand getLatest
+c32:disableCommand incomingChangeAssets
+c32:disableCommand incoming
+c32:disableCommand lock
+c32:disableCommand move
+c32:disableCommand resolve
+c32:disableCommand revertChanges
+c32:disableCommand revert
+c32:disableCommand status
+c32:disableCommand submit
+c32:disableCommand unlock
+c32:offline Logging out
+i1:User priemg logged out. (level 48)
+v1:login
+Prompted for password by server
+Prompt: Enter password: 
+v1:Prompted for password
+v1:User priemg logged in.
+Login succeeded
+v1:client -o "priemg_DESKTOP-T61VKPT_6081"
+v1:# A Perforce Client Specification.\n#\n#  Client:      The client name.\n#  Update:      The date this specification was last modified.\n#  Access:      The date this client was last used in any way.\n#  Owner:       The Perforce user name of the user who owns the client\n#               workspace. The default is the user who created the\n#               client workspace.\n#  Host:        If set, restricts access to the named host.\n#  Description: A short description of the client (optional).\n#  Root:        The base directory of the client workspace.\n#  AltRoots:    Up to two alternate client workspace roots.\n#  Options:     Client options:\n#                      [no]allwrite [no]clobber [no]compress\n#                      [un]locked [no]modtime [no]rmdir\n#  SubmitOptions:\n#                      submitunchanged/submitunchanged+reopen\n#                      revertunchanged/revertunchanged+reopen\n#                      leaveunchanged/leaveunchanged+reopen\n#  LineEnd:     Text file line endings on client: local/unix/mac/win/share.\n#  Type:        Type of client: writeable/readonly/graph/partitioned.\n#  ServerID:    If set, restricts access to the named server.\n#  View:        Lines to map depot files into the client workspace.\n#  ChangeView:  Lines to restrict depot files to specific changelists.\n#  Stream:      The stream to which this client's view will be dedicated.\n#               (Files in stream paths can be submitted only by dedicated\n#               stream clients.) When this optional field is set, the\n#               View field will be automatically replaced by a stream\n#               view as the client spec is saved.\n#  StreamAtChange:  A changelist number that sets a back-in-time view of a\n#                   stream ( Stream field is required ).\n#                   Changes cannot be submitted when this field is set.\n#\n# Use 'p4 help client' to see more about client views and options.\n\nClient:	priemg_DESKTOP-T61VKPT_6081\n\nUpdate:	2019/09/10 14:55:13\n\nAccess:	2019/09/10 17:17:23\n\nOwner:	priemg\n\nHost:	DESKTOP-T61VKPT\n\nDescription:\n	Created by priemg.\n\nRoot:	C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081\n\nOptions:	noallwrite noclobber nocompress unlocked nomodtime normdir\n\nSubmitOptions:	submitunchanged\n\nLineEnd:	local\n\nView:\n	//GSAS-4520-F19/... //priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/...\n	//depot/... //priemg_DESKTOP-T61VKPT_6081/depot/...\n
+Root set to C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081
+v1:where "./testForProjectRootMapping"
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+c32:disableCommand add
+c32:disableCommand changeDescription
+c32:disableCommand changeMove
+c32:disableCommand changes
+c32:disableCommand changeStatus
+c32:disableCommand checkout
+c32:disableCommand deleteChanges
+c32:disableCommand delete
+c32:disableCommand download
+c32:disableCommand getLatest
+c32:disableCommand incomingChangeAssets
+c32:disableCommand incoming
+c32:disableCommand lock
+c32:disableCommand move
+c32:disableCommand resolve
+c32:disableCommand revertChanges
+c32:disableCommand revert
+c32:disableCommand status
+c32:disableCommand submit
+c32:disableCommand unlock
+c32:offline Couldn't fstat the project root directory. Please ensure that the selected workspace maps the project directory.
+r1:end of response
+
+--------------------------
+Got config end = ''
+level 48: User priemg logged out.
+login
+Prompted for password by server
+Login succeeded
+client -o "priemg_DESKTOP-T61VKPT_6081"
+Root set to C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081
+where "./testForProjectRootMapping"
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+Got config end = ''
+level 48: User priemg logged out.
+login
+Prompted for password by server
+Login succeeded
+client -o "priemg_DESKTOP-T61VKPT_6081"
+Root set to C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081
+where "./testForProjectRootMapping"
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+Error: Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.
+
+e32:Client 'priemg_DESKTOP-T61VKPT_6081' can only be used from host 'DESKTOP-T61VKPT'.\n
+./testForProjectRootMapping - file(s) not in client view.
+
+w32:./testForProjectRootMapping - file(s) not in client view.\n
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/AudioManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ClusterInputManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/DynamicsManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorBuildSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/GraphicsSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/InputManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/NavMeshAreas.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/Physics2DSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/PresetManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ProjectVersion.txt - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/QualitySettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/TagManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/TimeManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/UnityConnectSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/VFXManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/XRSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Packages/manifest.json - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/AudioManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ClusterInputManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/DynamicsManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorBuildSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/GraphicsSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/InputManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/NavMeshAreas.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/Physics2DSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/PresetManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ProjectVersion.txt - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/QualitySettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/TagManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/TimeManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/UnityConnectSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/VFXManager.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/XRSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/ProjectSettings/EditorSettings.asset - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes/SampleScene.unity - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes/SampleScene.unity.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes/Primary.unity - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes/Primary.unity.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes/Primary.unity.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Scenes.meta - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat - file(s) not in client view.
+
+C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta - file(s) not in client view.
+
+p1:-1 0 Change 296 created with 22 open file(s).
+p1:-1 0 Submitting change 296.
+p1:-1 0 Locking 22 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Secondary.unity#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Secondary.unity.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Packages/manifest.json#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/AudioManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ClusterInputManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/DynamicsManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/EditorBuildSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/EditorSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/GraphicsSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/InputManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/NavMeshAreas.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/Physics2DSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/PresetManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectVersion.txt#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/QualitySettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/TagManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/TimeManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/UnityConnectSettings.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/VFXManager.asset#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/XRSettings.asset#1
+p1:-1 0 Change 296 submitted.
+TCP receive failed.
+read: socket: WSAECONNRESET
+
+e1:TCP receive failed.\nread: socket: WSAECONNRESET\n
+e32:TCP receive failed.\nread: socket: WSAECONNRESET\n
+TCP receive failed.
+read: socket: WSAECONNRESET
+
+Error: TCP receive failed.
+read: socket: WSAECONNRESET
+
+e32:TCP receive failed.\nread: socket: WSAECONNRESET\n
+e32:TCP receive failed.\nread: socket: WSAECONNRESET\n
+TCP receive failed.
+read: socket: WSAECONNRESET
+
+Error: TCP receive failed.
+read: socket: WSAECONNRESET
+
+e32:TCP receive failed.\nread: socket: WSAECONNRESET\n
+p1:-1 0 Change 605 created with 14 open file(s).
+p1:-1 0 Submitting change 605.
+p1:-1 0 Locking 14 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Analyzer.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Analyzer.cs.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/MapGroup.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/MapGroup.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Tertiary 1.unity#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Tertiary 1.unity.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Tertiary 2.unity#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scenes/Tertiary 2.unity.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Tile.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Tile.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TileEditor.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TileEditor.cs.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Waypoint.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Waypoint.cs.meta#1
+p1:-1 0 Change 605 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 1 Change 1172 created with 13 open file(s).
+p1:-1 1 Submitting change 1172.
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule 1.controller - edit of deleted file; must sync & add -d or revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule 1.controller.meta - edit of deleted file; must sync & add -d or revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/CapsuleTimeline.playable - edit of deleted file; must sync & add -d or revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/CapsuleTimeline.playable.meta - edit of deleted file; must sync & add -d or revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Strafe.anim - delete of deleted file; must revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Strafe.anim.meta - delete of deleted file; must revert
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset - must resolve before submitting
+p1:-1 1 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset - must resolve #5
+Out of date files must be resolved or reverted.
+Submit failed -- fix problems above then use 'p4 submit -c 1172'.
+
+e1:Out of date files must be resolved or reverted.\nSubmit failed -- fix problems above then use 'p4 submit -c 1172'.\n
+p1:-1 0 Change 1173 created with 2 open file(s).
+p1:-1 0 Submitting change 1173.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#3
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#3
+p1:-1 0 Change 1173 submitted.
+p1:-1 0 Change 1174 created with 2 open file(s).
+p1:-1 0 Submitting change 1174.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim.meta#1
+p1:-1 0 Change 1174 submitted.
+p1:-1 0 Change 1187 created with 2 open file(s).
+p1:-1 0 Submitting change 1187.
+p1:-1 0 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Base.anim - edit of deleted file; must sync & add -d or revert
+p1:-1 0 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Base.anim.meta - edit of deleted file; must sync & add -d or revert
+Out of date files must be resolved or reverted.
+Submit failed -- fix problems above then use 'p4 submit -c 1187'.
+
+e1:Out of date files must be resolved or reverted.\nSubmit failed -- fix problems above then use 'p4 submit -c 1187'.\n
+p1:-1 0 Change 1188 created with 2 open file(s).
+p1:-1 0 Submitting change 1188.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#4
+p1:-1 0 Change 1188 submitted.
+p1:-1 0 Change 1189 created with 2 open file(s).
+p1:-1 0 Submitting change 1189.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim.meta#2
+p1:-1 0 Change 1189 submitted.
+p1:-1 0 Change 1190 created with 2 open file(s).
+p1:-1 0 Submitting change 1190.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs.meta#1
+p1:-1 0 Change 1190 submitted.
+p1:-1 0 Change 1191 created with 2 open file(s).
+p1:-1 0 Submitting change 1191.
+p1:-1 0 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Base.anim - edit of deleted file; must sync & add -d or revert
+p1:-1 0 //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Base.anim.meta - edit of deleted file; must sync & add -d or revert
+Out of date files must be resolved or reverted.
+Submit failed -- fix problems above then use 'p4 submit -c 1191'.
+
+e1:Out of date files must be resolved or reverted.\nSubmit failed -- fix problems above then use 'p4 submit -c 1191'.\n
+An empty string is not allowed as a file name.
+
+An empty string is not allowed as a file name.
+
+e1:An empty string is not allowed as a file name.\n
+p1:-1 0 opened and not being changed
+p1:-1 0 opened and not being changed
+p1:-1 0 opened and not being changed
+p1:-1 0 opened and not being changed
+p1:-1 0 Change 1206 created with 2 open file(s).
+p1:-1 0 Change 1296 created with 2 open file(s).
+p1:-1 0 Submitting change 1296.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#5
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#5
+p1:-1 0 Change 1296 submitted.
+p1:-1 0 Change 1297 created with 4 open file(s).
+p1:-1 0 Submitting change 1297.
+p1:-1 0 Locking 4 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs.meta#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerControl.cs#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerControl.cs.meta#3
+p1:-1 0 Change 1297 submitted.
+p1:-1 0 Change 1298 created with 5 open file(s).
+p1:-1 0 Submitting change 1298.
+p1:-1 0 Locking 5 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Animations/Base.anim#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Animations/Base.anim.meta#3
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/StrafeLeft.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/StrafeLeft.anim.meta#1
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#7
+p1:-1 0 Change 1298 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 1585 created with 2 open file(s).
+p1:-1 0 Submitting change 1585.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs.meta#3
+p1:-1 0 Change 1585 submitted.
+p1:-1 0 Change 1586 created with 2 open file(s).
+p1:-1 0 Submitting change 1586.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerControl.cs#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerControl.cs.meta#4
+p1:-1 0 Change 1586 submitted.
+p1:-1 0 Change 1588 created with 2 open file(s).
+p1:-1 0 Submitting change 1588.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Ground.mat#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Ground.mat.meta#1
+p1:-1 0 Change 1588 submitted.
+p1:-1 0 Change 2269 created with 2 open file(s).
+p1:-1 0 Submitting change 2269.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab.meta#2
+p1:-1 1 Change 2269 submitted.
+p1:-1 0 Change 2279 created with 2 open file(s).
+p1:-1 0 Submitting change 2279.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Goal.cs#5
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Goal.cs.meta#5
+p1:-1 0 Change 2279 submitted.
+p1:-1 0 Change 2280 created with 1 open file(s).
+p1:-1 0 Submitting change 2280.
+p1:-1 0 Locking 1 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#13
+p1:-1 0 Change 2280 submitted.
+p1:-1 0 Change 2357 created with 2 open file(s).
+p1:-1 0 Submitting change 2357.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab.meta#3
+p1:-1 1 Change 2357 submitted.
+p1:-1 0 Change 2370 created with 1 open file(s).
+p1:-1 0 Submitting change 2370.
+p1:-1 0 Locking 1 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#14
+p1:-1 0 Change 2370 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 2436 created with 1 open file(s).
+p1:-1 0 Submitting change 2436.
+p1:-1 0 Locking 1 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Playground/Environment.meta#2
+p1:-1 0 Change 2436 submitted.
+p1:-1 0 Change 2438 created with 2 open file(s).
+p1:-1 0 Submitting change 2438.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab.meta#4
+p1:-1 0 Change 2438 submitted.
+p1:-1 0 Change 2439 created with 2 open file(s).
+p1:-1 0 Submitting change 2439.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment.meta#4
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI.meta#1
+p1:-1 0 Change 2439 submitted.
+p1:-1 0 Change 2440 created with 4 open file(s).
+p1:-1 0 Submitting change 2440.
+p1:-1 0 Locking 4 files ...
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab#5
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/PlayerSanta.prefab.meta#5
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerSanta.prefab#1
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerSanta.prefab.meta#1
+p1:-1 0 Change 2440 submitted.
+p1:-1 0 Change 2446 created with 6 open file(s).
+p1:-1 0 Submitting change 2446.
+p1:-1 0 Locking 6 files ...
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs#5
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Mover.cs.meta#5
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/Mover.cs#1
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/Mover.cs.meta#1
+p1:-1 0 delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs#2
+p1:-1 0 delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs.meta#2
+p1:-1 0 Change 2446 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 2579 created with 3 open file(s).
+p1:-1 0 Submitting change 2579.
+p1:-1 0 Locking 3 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#8
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#8
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#17
+p1:-1 0 Change 2579 submitted.
+p1:-1 0 Change 2582 created with 4 open file(s).
+p1:-1 0 Submitting change 2582.
+p1:-1 0 Locking 4 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerS.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerS.prefab.meta#1
+p1:-1 0 delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerSanta.prefab#4
+p1:-1 0 delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/PlayerSanta.prefab.meta#4
+p1:-1 0 Change 2582 submitted.
+p1:-1 0 Change 2583 created with 2 open file(s).
+p1:-1 0 Submitting change 2583.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#9
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#9
+p1:-1 0 Change 2583 submitted.
+p1:-1 0 Change 2588 created with 2 open file(s).
+p1:-1 0 Submitting change 2588.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#10
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#10
+p1:-1 0 Change 2588 submitted.
+p1:-1 0 Change 2594 created with 2 open file(s).
+p1:-1 0 Submitting change 2594.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes/Vault Creation Space.unity#1
+p1:-1 1 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes/Vault Creation Space.unity.meta#1
+p1:-1 1 Change 2594 submitted.
+p1:-1 0 Change 2597 created with 22 open file(s).
+p1:-1 0 Submitting change 2597.
+p1:-1 0 Locking 22 files ...
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Greybox Vault Space.prefab#1
+p1:-1 0 move/add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Greybox Vault Space.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 1.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 1.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 2.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 2.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 3.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 3.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 4.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 4.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 5.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 5.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 6.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 6.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 7.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 7.prefab.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 8.prefab#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 8.prefab.meta#1
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Vault Space.prefab#4
+p1:-1 0 move/delete //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Vault Space.prefab.meta#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes/Vault Creation Space.unity#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes/Vault Creation Space.unity.meta#2
+p1:-1 1 Change 2597 submitted.
+p1:-1 0 Change 2602 created with 4 open file(s).
+p1:-1 0 Submitting change 2602.
+p1:-1 0 Locking 4 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/LevelSelectScene.unity#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/LevelSelectScene.unity.meta#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/StartScene.unity#9
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/StartScene.unity.meta#9
+p1:-1 0 Change 2602 submitted.
+p1:-1 0 Change 2615 created with 8 open file(s).
+p1:-1 0 Submitting change 2615.
+p1:-1 0 Locking 8 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Animations/Base.anim#6
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Animations/Base.anim.meta#6
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#11
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#11
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs.meta#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim#5
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Vault.anim.meta#5
+p1:-1 0 Change 2615 submitted.
+p1:-1 0 Change 2632 created with 2 open file(s).
+p1:-1 0 Submitting change 2632.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#12
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#12
+p1:-1 0 Change 2632 submitted.
+p1:-1 0 Change 2634 created with 2 open file(s).
+p1:-1 0 Submitting change 2634.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/LevelSelectScene.unity#4
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/LevelSelectScene.unity.meta#4
+p1:-1 0 Change 2634 submitted.
+p1:-1 0 Change 2734 created with 2 open file(s).
+p1:-1 0 Submitting change 2734.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 1.prefab#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Prefabs/Environment/Vault Space 1.prefab.meta#2
+p1:-1 0 Change 2734 submitted.
+p1:-1 0 Change 2750 created with 11 open file(s).
+p1:-1 0 Submitting change 2750.
+p1:-1 0 Locking 11 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#8
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#8
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#13
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#13
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs#5
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Player/PlayerControl.cs.meta#5
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/santa.blend#8
+p1:-1 2 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/santa.blend.meta#8
+p1:-1 2 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#1
+p1:-1 2 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#1
+p1:-1 2 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#18
+p1:-1 2 Change 2750 renamed change 2752 and submitted.
+p1:-1 0 Change 2754 created with 2 open file(s).
+p1:-1 0 Submitting change 2754.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#14
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#14
+p1:-1 0 Change 2754 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
