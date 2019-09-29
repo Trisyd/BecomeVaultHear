@@ -688,3 +688,20 @@ p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultH
 p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#14
 p1:-1 0 Change 2754 submitted.
 e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 2768 created with 7 open file(s).
+p1:-1 0 Submitting change 2768.
+p1:-1 0 Locking 7 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/candy cane meter [Recovered].ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/candy cane meter.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/number overlay.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/present.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/santa.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/sdfsf.ai.meta#1
+p1:-1 0 Change 2768 submitted.
+p1:-1 0 Change 2771 created with 2 open file(s).
+p1:-1 0 Submitting change 2771.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#2
+p1:-1 0 Change 2771 submitted.
