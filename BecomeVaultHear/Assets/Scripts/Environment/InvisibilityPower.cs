@@ -10,12 +10,12 @@ public class InvisibilityPower : MonoBehaviour
     private bool isEnabled = true;    //DEBUG ONLY
     void DrawColoredRay(Color col)
     {
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back) * 2, col);
+        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back) * 5, col);
     }
 
     private void WatchPlayer()
     {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), out RaycastHit hit, 2))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), out RaycastHit hit, 5))
         {
             if (hit.transform.gameObject.tag == "Player")
             {
@@ -29,7 +29,8 @@ public class InvisibilityPower : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        Debug.Log("Some Collision");
+        if (other.gameObject.tag == "Player")
         {
             OnInvisibility?.Invoke();
             Destroy(this.gameObject);

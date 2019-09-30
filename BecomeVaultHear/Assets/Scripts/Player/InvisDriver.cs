@@ -1,8 +1,9 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-//Player sript for turning invisible
+//Player sript for turning invisible, preventing game over from enemy detection
+//If we want tag based interaction regardless of visibilty
+//We check if that tag.Contains("Player") rather than == "Player"
 public class InvisDriver : MonoBehaviour
 {
     public float transparency;
@@ -12,8 +13,6 @@ public class InvisDriver : MonoBehaviour
     //Activate inisible effect (of some kind)
     //Change Player tag to PlayerInvisible
     //This will prevent interactions with anything that relies on its tag
-    //If we want tag based interaction regardless of visibilty
-    //We check if that tag.Contains("Player") rather than == "Player"
     //This will only be relevant on things like the goal
     private Material playerMaterial;
     private Color originalColor;

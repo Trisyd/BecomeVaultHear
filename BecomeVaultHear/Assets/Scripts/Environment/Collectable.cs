@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public enum Collectables
 {
@@ -30,7 +27,7 @@ public class Collectable : MonoBehaviour
 
     void Start()
     {
-        data = new SaveMangement().data;
+        data = SaveMangement.Instance.data;
         currentScene = new SceneManagement().CurrentScene().ToString();
 
 
@@ -43,14 +40,9 @@ public class Collectable : MonoBehaviour
             alreadyCollected = data.obtainedCollectables[currentScene].Contains(Type);
         }
 
-        //Has the player already collected this and cleared the level? [Check current data class]
-        //In other words, is the collectable saved in the binary file?
-        //If so, spawn a ghost prefab of the ornament
+        //Spawn a cosmetic ghost material variant of the ornament
         if (alreadyCollected) GetComponent<Renderer>().material = ghostMaterial;
-
         else GetComponent<Renderer>().material = baseMaterial;
-        //The only difference will be in the loaded material
-        //This ghost will trigger collection effects, but not do much else
         Debug.Log(GetComponent<Renderer>().material.name);
     }
 
@@ -58,7 +50,7 @@ public class Collectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag.Contains("Player"))
         {
 
             switch (Type)
@@ -67,10 +59,12 @@ public class Collectable : MonoBehaviour
                     OnFirstCollection?.Invoke();
                     Destroy(this.gameObject);
                     return;
+
                 case Collectables.Second:
                     OnSecondCollection?.Invoke();
                     Destroy(this.gameObject);
                     return;
+
                 case Collectables.Third:
                     OnThirdCollection?.Invoke();
                     Destroy(this.gameObject);

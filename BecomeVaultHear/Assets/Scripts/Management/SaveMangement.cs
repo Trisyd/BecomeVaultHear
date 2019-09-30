@@ -6,15 +6,28 @@ using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using LitJson;
 
+//Performs all functions involving the saving and loading of player data
 public class SaveMangement : MonoBehaviour
 {
+    //Enforce a singleton on the script so that saved data is universally accessable
+    private static SaveMangement _instance;
+    public static SaveMangement Instance { get { return _instance; } }
 
     public SaveData data;
     private Scenes currentScene;
     private Collectable collectableScript;
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+
         collectableScript = new Collectable();
         currentScene = new SceneManagement().CurrentScene();
         data = new SaveData();
@@ -43,6 +56,7 @@ public class SaveMangement : MonoBehaviour
         PrintSaveData();
     }
 
+    //Deserialization Method: Binary (.dat file) -> JSON (String) -> Class (SaveData) ->
     public void LoadGame()
     {
         //Load in data from the dat file to the JSON string
