@@ -87,31 +87,31 @@
     <Compile Include="Assets\Scripts\Playground\TileEditor.cs" />
     <Compile Include="Assets\Scripts\Playground\Waypoint.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/priemg/Perforce/priemg_DESKTOP-T61VKPT_6081/GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -289,12 +289,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
