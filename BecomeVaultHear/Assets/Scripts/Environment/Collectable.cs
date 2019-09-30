@@ -27,6 +27,7 @@ public class Collectable : MonoBehaviour
 
     void Start()
     {
+        /*
         data = SaveMangement.Instance.data;
         currentScene = new SceneManagement().CurrentScene().ToString();
 
@@ -39,6 +40,7 @@ public class Collectable : MonoBehaviour
         {
             alreadyCollected = data.obtainedCollectables[currentScene].Contains(Type);
         }
+        */
 
         //Spawn a cosmetic ghost material variant of the ornament
         if (alreadyCollected) GetComponent<Renderer>().material = ghostMaterial;

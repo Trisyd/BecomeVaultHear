@@ -10,6 +10,7 @@ using LitJson;
 public class SaveMangement : MonoBehaviour
 {
     //Enforce a singleton on the script so that saved data is universally accessable
+    //Fuck,
     private static SaveMangement _instance;
     public static SaveMangement Instance { get { return _instance; } }
 
