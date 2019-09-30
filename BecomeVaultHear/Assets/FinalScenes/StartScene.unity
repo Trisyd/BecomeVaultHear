@@ -569,6 +569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e53df2f7bf11794787ab93461bf9fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data:
+    clearedLevels: 
+    test: 
 --- !u!114 &752716445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,8 +1115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bells: {fileID: 8300000, guid: faf9310fc9e18fc49ab779531e3099b9, type: 3}
-  silentnight: {fileID: 8300000, guid: a261fa244157fcd4682e1850e834cc3d, type: 3}
-  deckthehalls: {fileID: 8300000, guid: 6e27880bf6a5d76488646873f2d5f848, type: 3}
 --- !u!1 &1502753311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,8 +1781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.9, y: 0}
-  m_SizeDelta: {x: 742, y: 313}
+  m_AnchoredPosition: {x: 2.2, y: -11.8}
+  m_SizeDelta: {x: 756.2, y: 913.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2113758121
 Animator:

@@ -56,8 +56,9 @@ public class SceneManagement : MonoBehaviour
 
     private void Start()
     {
-        //anim = GameObject.FindGameObjectWithTag("Transition").GetComponentInChildren<Animator>();
-        //Debug.Log(anim.gameObject.name);
+        anim = GameObject.FindGameObjectWithTag("Transition").GetComponentInChildren<Animator>(); 
+
+        Debug.Log(anim.gameObject.name);
     }
 
     private void OnEnable()
@@ -82,14 +83,30 @@ public class SceneManagement : MonoBehaviour
         StartCoroutine(AnimDriver());
     }
 
+    public void SwitchAnim(Scenes scene)
+    {
+        
+        Debug.Log("Calling SwitchAnim()");
+        StartCoroutine(SwitchDriver(scene));
+    }
+
     //Play
     private IEnumerator AnimDriver()
     {
         yield return new WaitForSeconds(1.5f);
         anim.SetBool("TriggerTransition", false);
+        Debug.Log("sdjfaldskfj;las");
 
     }
+    private IEnumerator SwitchDriver(Scenes scene)
+    {
+        anim.SetBool("TriggerTransition", true);
+        yield return new WaitForSeconds(1.5f);
+        anim.SetBool("TriggerTransition", false);
+        Debug.Log("sdjfaldskfj;las");
+        SceneManager.LoadScene(scenes[scene]);
 
+    }
 
 
     public Scenes CurrentScene()
@@ -104,15 +121,15 @@ public class SceneManagement : MonoBehaviour
 
     public void Lose()
     {
-        //PlayAnim();
-        //anim.SetBool("TriggerTransition", false);
+        PlayAnim();
+        anim.SetBool("TriggerTransition", false);
         SceneManager.LoadScene(scenes[Scenes.Lose]);
     }
 
     public void Win()
     {
-        //PlayAnim();
-        //anim.SetBool("TriggerTransition", false);
+        PlayAnim();
+        anim.SetBool("TriggerTransition", false);
         SceneManager.LoadScene(scenes[Scenes.Win]);
     }
 
@@ -121,10 +138,10 @@ public class SceneManagement : MonoBehaviour
         if (Enum.IsDefined(typeof(Scenes), sceneValue))
         {
             Scenes switchScene = (Scenes)sceneValue;
-            // PlayAnim();
-
-            //Debug.Log(anim.GetBool("TriggerTransition"));
-            SceneManager.LoadScene(scenes[switchScene]);
+            SwitchAnim(switchScene);
+            //anim.SetBool("TriggerTransition", false);
+            Debug.Log(anim.GetBool("TriggerTransition"));
+            
 
 
         }
