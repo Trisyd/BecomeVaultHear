@@ -32,7 +32,7 @@ c32:offline Logging out
 i1:User priemg logged out. (level 48)
 v1:login
 Prompted for password by server
-Prompt: Enter password: 
+Prompt: Enter password:
 v1:Prompted for password
 v1:User priemg logged in.
 Login succeeded
@@ -688,63 +688,54 @@ p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultH
 p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#14
 p1:-1 0 Change 2754 submitted.
 e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-e32:TCP receive failed.\nread: socket: WSAECONNRESET\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
-
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
-
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
-Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-Error: Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\testForProjectRootMapping' is not under client's root 'C:\Users\priemg\Perforce\priemg_DESKTOP-T61VKPT_6081'.
-
-e32:Path 'C:/Users/Xerox/Documents/RPI 2019-20/Game Dev 1/BecomeVaultHear/BecomeVaultHear\\testForProjectRootMapping' is not under client's root 'C:\\Users\\priemg\\Perforce\\priemg_DESKTOP-T61VKPT_6081'.\n
+p1:-1 0 Change 2768 created with 7 open file(s).
+p1:-1 0 Submitting change 2768.
+p1:-1 0 Locking 7 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/candy cane meter [Recovered].ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/candy cane meter.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/number overlay.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/present.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/santa.ai.meta#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/UI/Files/sdfsf.ai.meta#1
+p1:-1 0 Change 2768 submitted.
+p1:-1 0 Change 2771 created with 2 open file(s).
+p1:-1 0 Submitting change 2771.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#2
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#2
+p1:-1 0 Change 2771 submitted.
+p1:-1 0 Change 2784 created with 3 open file(s).
+p1:-1 0 Submitting change 2784.
+p1:-1 0 Locking 3 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#19
+p1:-1 0 Change 2784 submitted.
+p1:-1 0 Change 2790 created with 2 open file(s).
+p1:-1 0 Submitting change 2790.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal.anim.meta#1
+p1:-1 0 Change 2790 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 2796 created with 7 open file(s).
+p1:-1 0 Submitting change 2796.
+p1:-1 0 Locking 7 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#9
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#9
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/Armature.002.controller#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/Armature.002.controller.meta#1
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/santa2.blend.meta#2
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal2.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal2.anim.meta#1
+p1:-1 0 Change 2796 submitted.
+p1:-1 0 Change 2875 created with 5 open file(s).
+p1:-1 0 Submitting change 2875.
+p1:-1 0 Locking 5 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#19
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#19
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Obstacle.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Obstacle.cs.meta#1
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes.meta#4
+p1:-1 0 Change 2875 submitted.

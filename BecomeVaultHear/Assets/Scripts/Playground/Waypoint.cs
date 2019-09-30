@@ -20,12 +20,6 @@ public class Waypoint : MonoBehaviour
         {
             gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
         }
-        /*if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.back), out hit))
-        {
-                this code is used in the goal script now
-            gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
-        }
-        */
     }
 
     public int GetGridSize()

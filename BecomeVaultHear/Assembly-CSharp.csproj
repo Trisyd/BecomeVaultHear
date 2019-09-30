@@ -68,10 +68,12 @@
     <Compile Include="Assets\Scripts\Enemy\CatchPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemy\LineOfSight.cs" />
+    <Compile Include="Assets\Scripts\Enemy\MakeNoise.cs" />
     <Compile Include="Assets\Scripts\Environment\Audio.cs" />
     <Compile Include="Assets\Scripts\Environment\Collectable.cs" />
     <Compile Include="Assets\Scripts\Environment\Goal.cs" />
     <Compile Include="Assets\Scripts\Environment\InvisibilityPower.cs" />
+    <Compile Include="Assets\Scripts\Environment\Obstacle.cs" />
     <Compile Include="Assets\Scripts\Environment\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\Management\SaveMangement.cs" />
     <Compile Include="Assets\Scripts\Management\SceneManagement.cs" />
