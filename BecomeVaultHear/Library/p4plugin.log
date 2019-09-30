@@ -705,3 +705,37 @@ p1:-1 0 Locking 2 files ...
 p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#2
 p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#2
 p1:-1 0 Change 2771 submitted.
+p1:-1 0 Change 2784 created with 3 open file(s).
+p1:-1 0 Submitting change 2784.
+p1:-1 0 Locking 3 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/VaultFinal.anim.meta#3
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/ProjectSettings/ProjectSettings.asset#19
+p1:-1 0 Change 2784 submitted.
+p1:-1 0 Change 2790 created with 2 open file(s).
+p1:-1 0 Submitting change 2790.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal.anim.meta#1
+p1:-1 0 Change 2790 submitted.
+e32:TCP send failed.\nwrite: socket: WSAECONNRESET\n
+p1:-1 0 Change 2796 created with 7 open file(s).
+p1:-1 0 Submitting change 2796.
+p1:-1 0 Locking 7 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller#9
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Capsule.controller.meta#9
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/Armature.002.controller#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/Armature.002.controller.meta#1
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/santa2.blend.meta#2
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal2.anim#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Textures/StrafingFinal2.anim.meta#1
+p1:-1 0 Change 2796 submitted.
+p1:-1 0 Change 2875 created with 5 open file(s).
+p1:-1 0 Submitting change 2875.
+p1:-1 0 Locking 5 files ...
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity#19
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/FinalScenes/Level1Scene.unity.meta#19
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Obstacle.cs#1
+p1:-1 0 add //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/Scripts/Environment/Obstacle.cs.meta#1
+p1:-1 0 edit //GSAS-4520-F19/Section2/Project1/Group8/Unity Project/BecomeVaultHear/Assets/TestScenes.meta#4
+p1:-1 0 Change 2875 submitted.
