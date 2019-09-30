@@ -1,20 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 //Behavior for when the Father enemy induces game over
 public class CatchPlayer : MonoBehaviour
 {
     public delegate void Detected();
     public static event Detected OnDetected;
+    [SerializeField]
+    private bool killEnabled = true; //DEBUG ONLY
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             //Send detect player signal
-            OnDetected?.Invoke();
-            
+            if (killEnabled) OnDetected?.Invoke();
+
         }
     }
 }

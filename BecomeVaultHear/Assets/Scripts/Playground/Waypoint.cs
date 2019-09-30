@@ -18,7 +18,14 @@ public class Waypoint : MonoBehaviour
 
         if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.up), out hit))
         {
-            gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+            try {
+                gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+            }
+            catch (MissingComponentException)
+            {
+                Debug.Log("No Renderer Found. Raycast Collision Hit.");
+            }
+            
         }
     }
 

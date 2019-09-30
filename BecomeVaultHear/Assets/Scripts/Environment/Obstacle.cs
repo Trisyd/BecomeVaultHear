@@ -5,23 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Obstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public delegate void ObstacleCollision();
+    public static event ObstacleCollision OnObstacleCollision;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            //LoadSceneMode.Single.
+            Debug.Log("Player Collided with Obstacle");
+            OnObstacleCollision?.Invoke();
         }
     }
 }

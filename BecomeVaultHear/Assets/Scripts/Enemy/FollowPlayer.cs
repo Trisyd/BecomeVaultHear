@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour
     public float speed = 1f;
     public Transform player;
     private Light spotlight;
-    // Start is called before the first frame update
+
     void Start()
     {
         spotlight = GetComponentInChildren<Light>();

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 //This should be the only script capable of changing the scene
 public enum Scenes
 {
-    Failure  = -1,
+    Failure = -1,
     Start = 0,
     LevelSelect = 10,
     Tertiary = 99,
@@ -64,6 +64,7 @@ public class SceneManagement : MonoBehaviour
     {
         LineOfSight.OnDetected += Lose;
         CatchPlayer.OnDetected += Lose;
+        Obstacle.OnObstacleCollision += Lose;
         Goal.OnClearLevel += Win;
     }
 
@@ -71,6 +72,7 @@ public class SceneManagement : MonoBehaviour
     {
         LineOfSight.OnDetected -= Lose;
         CatchPlayer.OnDetected -= Lose;
+        Obstacle.OnObstacleCollision -= Lose;
         Goal.OnClearLevel -= Win;
     }
 
@@ -119,11 +121,11 @@ public class SceneManagement : MonoBehaviour
         if (Enum.IsDefined(typeof(Scenes), sceneValue))
         {
             Scenes switchScene = (Scenes)sceneValue;
-           // PlayAnim();
+            // PlayAnim();
 
             //Debug.Log(anim.GetBool("TriggerTransition"));
             SceneManager.LoadScene(scenes[switchScene]);
-            
+
 
         }
 
