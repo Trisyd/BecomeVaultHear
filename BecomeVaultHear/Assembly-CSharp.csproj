@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Environment\InvisibilityPower.cs" />
     <Compile Include="Assets\Scripts\Environment\Obstacle.cs" />
     <Compile Include="Assets\Scripts\Environment\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\LevelProgress.cs" />
     <Compile Include="Assets\Scripts\Management\SaveMangement.cs" />
     <Compile Include="Assets\Scripts\Management\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\Management\Singleton.cs" />
