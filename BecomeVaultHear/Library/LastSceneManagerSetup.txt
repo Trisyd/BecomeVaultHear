@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/FinalScenes/Level1Scene.unity
+- path: C:/Users/Xerox/AppData/Local/Temp/p4v/DESKTOP-PSQQ82K_hass-helix.win.rpi.edu_1666/GSAS-4520-F19/Section2/Project1/Group8/Unity_Project/BecomeVaultHear/Assets/FinalScenes/Tertiary#6.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
